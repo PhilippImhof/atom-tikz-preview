@@ -1,0 +1,18 @@
+{
+  "context-menu": {
+    "atom-text-editor[data-grammar='text tex latex']": [{
+      "label": "Show TikZ preview",
+      "command": "tikz-preview:show"
+    }]
+  },
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "tikz-preview",
+      "submenu": [{
+        "label": "Show",
+        "command": "tikz-preview:show"
+      }]
+    }]
+  }]
+}

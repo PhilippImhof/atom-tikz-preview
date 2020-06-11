@@ -1,0 +1,23 @@
+{
+  "name": "tikz-preview",
+  "main": "./lib/tikz-preview",
+  "version": "0.0.1",
+  "description": "Preview TikZ drawings",
+  "keywords": [
+    "preview",
+    "latex",
+    "tikz"
+  ],
+  "activationCommands": {
+    "atom-workspace": "tikz-preview:show"
+  },
+  "repository": "https://github.com/atom/tikz-preview",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "@atom/temp": "^0.8.4",
+    "pdfjs-dist": "^2.4.456"
+  }
+}
