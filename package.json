@@ -1,7 +1,7 @@
 {
   "name": "tikz-preview",
   "main": "./lib/tikz-preview",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Preview TikZ drawings",
   "keywords": [
     "preview",
