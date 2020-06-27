@@ -1,3 +1,8 @@
+## 0.2.7 - Bugfix and improvement
+* Automatic detection of the `tikzpicture` environment now also works when the cursor is on the same line as `\begin{tikzpicture}` or `\end{tikzpicture}`.
+* Parsing of compilation output improved for cases where LaTeX outputs `<*>` instead of `l.xxx` (line number), e.g. with certain errors in `pgfplots`.
+* Bugfix: preview of PDF was not rendered if preview bubble was off screen when compilation ended.
+
 ## 0.2.6 - Improvement, Refactoring
 * If there is an active selection, we try to preview that text, even if no `\begin{tikzpicture}` and `\end{tikzpicture}` is present. This is for people who use custom macros or environments to create their pictures
 * No longer relying on grammar files
