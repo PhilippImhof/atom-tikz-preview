@@ -1,3 +1,6 @@
+## 0.2.8 - Bugfix
+* Handling of `\input` in preamble was flawed 
+
 ## 0.2.7 - Bugfix and improvement
 * Automatic detection of the `tikzpicture` environment now also works when the cursor is on the same line as `\begin{tikzpicture}` or `\end{tikzpicture}`.
 * Parsing of compilation output improved for cases where LaTeX outputs `<*>` instead of `l.xxx` (line number), e.g. with certain errors in `pgfplots`.
