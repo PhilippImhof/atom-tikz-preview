@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "@atom/temp": "^0.8.4",
-    "pdfjs-dist": "^2.4.456"
+    "pdfjs-dist": "^4.2.67"
   }
 }
